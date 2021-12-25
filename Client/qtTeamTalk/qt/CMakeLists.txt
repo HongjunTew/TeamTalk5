@@ -60,7 +60,7 @@ if (MSVC)
   ExternalProject_Add(Qt-src
     PREFIX            ${QT_BUILD_PREFIX}
     GIT_REPOSITORY    https://github.com/qt/qt5
-    GIT_TAG           v6.2.0
+    GIT_TAG           v6.2.2
     GIT_SUBMODULES    qtbase qttools qtmultimedia qtspeech qtshadertools
     GIT_SHALLOW       TRUE
     UPDATE_COMMAND    ""
@@ -79,7 +79,7 @@ elseif (${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
   ExternalProject_Add(Qt-src
     PREFIX            ${QT_BUILD_PREFIX}
     GIT_REPOSITORY    https://github.com/qt/qt5
-    GIT_TAG           v6.2.0
+    GIT_TAG           v6.2.2
     GIT_SUBMODULES    qtbase qttools qtmultimedia qtshadertools qtspeech
     GIT_SHALLOW       TRUE
     UPDATE_COMMAND    ""
